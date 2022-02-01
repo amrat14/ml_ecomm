@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "node isAuthenticated.js"
+    "start": "node isAuthenticated.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
-    "jsonwebtoken": "^8.5.1"
+    "heroku": "^7.59.2",
+    "jsonwebtoken": "^8.5.1",
+    "kubernetes": "^1.0.0"
   }
 }
